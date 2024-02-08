@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmt5dmI0NDdtbG1ua3M0NnplcnJwMnc0cmNjbHJsdHZnNjFqNHI0diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26ufcYAkp8e66vanu/giphy.gif');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .container {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  
+  button:hover {
+    background-color: #d81b60;
+  }
+  
+  .gif-container {
+    margin-top: 20px;
+  }
+  
+  .gif {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @keyframes moveButton {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(10px, 10px); }
+    50% { transform: translate(-10px, -10px); }
+    75% { transform: translate(10px, -10px); }
+    100% { transform: translate(-10px, 10px); }
+  }
+  
